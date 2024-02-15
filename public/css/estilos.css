@@ -1,0 +1,10 @@
+#titulo{
+    /*border: 5px solid green;*/
+    width: fit-content;
+    position: relative;
+    left: 40%;
+}
+.tablita{
+    background-color:blueviolet;
+    height: 670px;
+}
