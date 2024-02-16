@@ -17,7 +17,7 @@
         <div
             class="table-responsive">
             <br>
-            <table class="table table-dark">
+            <table class="table">
                 <thead>
                     <tr>
                         <th scope="col">Id</th>

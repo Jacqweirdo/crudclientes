@@ -21,6 +21,30 @@
     </head>
 
     <body>
+    <header class="container-fluid row bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg" id="nav">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home">Menú</a>
+        </li>                            
+      </ul>              
+    </div>
+  </div>
+  <img src="/images/user.png" class="rounded-circle" width="45px" id="perfil">
+    </nav>
+
+    
+
+    </header>
+    <section id="aside">
+        <h1>esto es un aside</h1>
+    </section>
     @yield('content')
         <!-- Bootstrap JavaScript Libraries -->
         <script
