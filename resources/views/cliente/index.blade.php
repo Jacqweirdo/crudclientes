@@ -1,6 +1,8 @@
 @extends('home')
 @section('content')
 <section class="tablita">
+    <h1>Intento de modificar</h1>
+    <h1>Holi amore</h1>
 <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-8">
