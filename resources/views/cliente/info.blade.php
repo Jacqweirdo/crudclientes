@@ -8,7 +8,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form action="{{route('home.update',$cliente->Id)}}" method="post" enctype="multipart/form-data">
+      <form action="{{route('home.update',$cliente->Id)}}" method="post" enctype="multipart/form-data" id="formularioEdit">
         @csrf
         @method('PUT')
       <div class="modal-body">
@@ -18,7 +18,7 @@
                 type="text"
                 class="form-control"
                 name="Nombre"
-                id=""
+                id="nombreFormEdit"
                 aria-describedby="helpId"
                 placeholder=""value="{{$cliente->Nombre}}"
             />
@@ -29,7 +29,7 @@
                 type="text"
                 class="form-control"
                 name="Telefono"
-                id=""
+                id="telefonoFormEdit"
                 aria-describedby="helpId"
                 placeholder=""value="{{$cliente->Telefono}}"
             />
@@ -40,7 +40,7 @@
                 type="email"
                 class="form-control"
                 name="Correo"
-                id=""
+                id="correoFormEdit"
                 aria-describedby="helpId"
                 placeholder=""value="{{$cliente->Correo}}"
             />

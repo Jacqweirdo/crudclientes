@@ -9,7 +9,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form action="{{route('home.store')}}" method="post" enctype="multipart/form-data">
+      <form action="{{route('home.store')}}" method="post" enctype="multipart/form-data" id="formularioCrear">
         @csrf
       <div class="modal-body">
         <div class="mb-3">
@@ -18,7 +18,7 @@
                 type="text"
                 class="form-control"
                 name="Nombre"
-                id=""
+                id="nombreFormCrear"
                 aria-describedby="helpId"
                 placeholder=""
             />
@@ -29,7 +29,7 @@
                 type="text"
                 class="form-control"
                 name="Telefono"
-                id=""
+                id="telefonoFormCrear"
                 aria-describedby="helpId"
                 placeholder=""
             />
@@ -40,7 +40,7 @@
                 type="email"
                 class="form-control"
                 name="Correo"
-                id=""
+                id="correoFormCrear"
                 aria-describedby="helpId"
                 placeholder=""
             />
