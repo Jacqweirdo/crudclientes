@@ -16,19 +16,35 @@ header{
 }
 #nav{   
     width: 100%;
-    background-color: blueviolet;
+    height: 50px;
+    background-color: #441B69;
+   
 }
 #perfil{    
     display: inline-block;
     float: right;
-    width: 3%;
+    width: 2%;
     position: relative;
     top: 5px;
 }
+#notificacion{
+    display: inline-block;
+    float: left;
+    width: 2%;
+    position: relative;
+    top: 5px;
+}
+#menu{
+    display: inline-block;
+    float: left;
+    width: 2%;
+    position: relative;
+    height: 10px;
+}
 #aside{
-    background-color: gray;
+    background-color: #222D32;
     float: left;
     border: 2px solid green;
-    width: 20%;
-    height: 500px;
+    width: 15%;
+    height: 700px;
 }

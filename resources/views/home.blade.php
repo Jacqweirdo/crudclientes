@@ -31,11 +31,14 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
+          <i class="fa-solid fa-bars" style="color: #ffffff;" id="notificacion"></i>
           <a class="nav-link active" aria-current="page" href="home">Menú</a>
+          
         </li>                            
       </ul>              
     </div>
   </div>
+  <i class="fa-solid fa-bell" style="color: #ffffff;" id="notificacion"></i> 
   <img src="/images/user.png" class="rounded-circle" width="45px" id="perfil">
     </nav>
 
@@ -43,7 +46,7 @@
 
     </header>
     <section id="aside">
-        <h1>esto es un aside</h1>
+        <h1>Menu</h1>
     </section>
     @yield('content')
         <!-- Bootstrap JavaScript Libraries -->
