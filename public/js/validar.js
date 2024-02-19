@@ -10,7 +10,7 @@ $(document).ready(function () {
             return false;
         }
 
-        if (!nombre.match(/^[a-zA-Z]+$/)) {
+        if (!nombre.match(/^[a-zA-Z\s]+$/)) {
             alert("El nombre debe contener solo letras.");
             return false;
         }
@@ -27,35 +27,34 @@ $(document).ready(function () {
 
         return true;
     });
+// Validación del formulario de edición
+$("#formularioEdit").submit(function () {
+    var nombre = $("#nombreFormEdit").val();
+    var telefono = $("#telefonoFormEdit").val();
+    var correo = $("#correoFormEdit").val();
 
-    // Validación del formulario de edición
-    $("#formularioEdit").submit(function () {
-        var nombre = $("#nombreFormEdit").val();
-        var telefono = $("#telefonoFormEdit").val();
-        var correo = $("#correoFormEdit").val();
+    if (nombre === "" || telefono === "" || correo === "") {
+        alert("Por favor, complete todos los campos.");
+        return false;
+    }
 
-        if (nombre === "" || telefono === "" || correo === "") {
-            alert("Por favor, complete todos los campos.");
-            return false;
-        }
+    if (!nombre.match(/^[a-zA-Z\s]+$/)) {
+        alert("El nombre debe contener solo letras.");
+        return false;
+    }
 
-        if (!nombre.match(/^[a-zA-Z]+$/)) {
-            alert("El nombre debe contener solo letras.");
-            return false;
-        }
+    if (!telefono.match(/^\d{10}$/)) {
+        alert("El teléfono debe tener 10 dígitos numéricos.");
+        return false;
+    }
 
-        if (!telefono.match(/^\d{10}$/)) {
-            alert("El teléfono debe tener 10 dígitos numéricos.");
-            return false;
-        }
+    if (!isValidEmail(correo)) {
+        alert("Ingrese un correo electrónico válido.");
+        return false;
+    }
 
-        if (!isValidEmail(correo)) {
-            alert("Ingrese un correo electrónico válido.");
-            return false;
-        }
-
-        return true;
-    });
+    return true;
+});
 
     // Función auxiliar para validar el correo electrónico
     function isValidEmail(email) {
