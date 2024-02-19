@@ -25,18 +25,19 @@
     <nav class="navbar navbar-expand-lg" id="nav">
     <div id="logoHome">
     <img src="/images/logoUpp2.jpg" id="logoUpp">
+    <FONT size=0.6 id="Siupp">SISTEMA 
+      <br/>
+      INTEGRAL DE
+      <br/> INFORMACIÓN</FONT>
     
     </div>
 
-  <div class="container-fluid">
-    
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
+  <div id="botonesNav">
+    <i class="fa-solid fa-bell" style="color: #ffffff;" id="notificacion"></i> 
+    <img src="/images/user.png" class="rounded-circle" id="perfil">
+    <FONT size=0.6 id="Siupp2">REYES FUENTES MELANY JACQUELINE |  </FONT>
+    <FONT size=0.6 id="Siupp2">TUTOR: GONZALEZ PERALTA MAYRA FABIOLA</FONT> 
   </div>
-  <i class="fa-solid fa-bell" style="color: #ffffff;" id="notificacion"></i> 
-  <img src="/images/user.png" class="rounded-circle" width="45px" id="perfil">
     </nav>
 
     
