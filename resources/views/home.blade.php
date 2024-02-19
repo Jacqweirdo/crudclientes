@@ -23,20 +23,17 @@
     <body>
     <header class="container-fluid row bg-body-tertiary">
     <nav class="navbar navbar-expand-lg" id="nav">
+    <div id="logoHome">
+    <img src="/images/logoUpp2.jpg" id="logoUpp">
+    
+    </div>
+
   <div class="container-fluid">
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <i class="fa-solid fa-bars" style="color: #ffffff;" id="notificacion"></i>
-          <a class="nav-link active" aria-current="page" href="home">Menú</a>
-          
-        </li>                            
-      </ul>              
-    </div>
+    
   </div>
   <i class="fa-solid fa-bell" style="color: #ffffff;" id="notificacion"></i> 
   <img src="/images/user.png" class="rounded-circle" width="45px" id="perfil">
@@ -46,7 +43,13 @@
 
     </header>
     <section id="aside">
-        <h1>Menu</h1>
+      <article id="menuAside">
+        <div id="menuPalabra">
+        <FONT COLOR=#37646F size=2>MENÚ</FONT>
+        </div>
+      
+      </article>
+        
     </section>
     @yield('content')
         <!-- Bootstrap JavaScript Libraries -->
