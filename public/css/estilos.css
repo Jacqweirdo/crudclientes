@@ -8,7 +8,7 @@
     width: 85%;
     float: right;
     height: 700px;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
 }
 header{
     width: 100%;
@@ -25,8 +25,11 @@ header{
 #notificacion{
     display: inline-block;
     width: 2%;
+    float: left;
     position: relative;
-    top: -15px;
+    top: 8px;
+    /*border: 2px solid black;*/
+
 }
 #menu{
     display: inline-block;
@@ -38,7 +41,7 @@ header{
 #aside{
     background-color: #222D32;
     float: left;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
     width: 15%;
     height: 700px;
 }
@@ -80,7 +83,7 @@ header{
     right: 120px;
 }
 #botonesNav{
-    border: 2px solid green;
+   /* border: 2px solid green;*/
     height: 100%;
     width: fit-content;
     float: right;

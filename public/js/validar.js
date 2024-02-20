@@ -29,26 +29,30 @@ $(document).ready(function () {
     });
 // Validación del formulario de edición
 $("#formularioEdit").submit(function () {
-    var nombre = $("#nombreFormEdit").val();
-    var telefono = $("#telefonoFormEdit").val();
-    var correo = $("#correoFormEdit").val();
+    console.log("Validando el formulario de edición");
+    var nombre1 = $("#nombreFormEdit").val();
+    console.log("Nombre:", nombre1);
+    var telefono1 = $("#telefonoFormEdit").val();
+    console.log("Telefono:", telefono1);
+    var correo1 = $("#correoFormEdit").val();
+    console.log("Correo:", correo1);
 
-    if (nombre === "" || telefono === "" || correo === "") {
+    if (nombre1 === "" || telefono1 === "" || correo1 === "") {
         alert("Por favor, complete todos los campos.");
         return false;
     }
 
-    if (!nombre.match(/^[a-zA-Z\s]+$/)) {
+    if (!nombre1.match(/^[a-zA-Z\s]+$/)) {
         alert("El nombre debe contener solo letras.");
         return false;
     }
 
-    if (!telefono.match(/^\d{10}$/)) {
+    if (!telefono1.match(/^\d{10}$/)) {
         alert("El teléfono debe tener 10 dígitos numéricos.");
         return false;
     }
 
-    if (!isValidEmail(correo)) {
+    if (!isValidEmail(correo1)) {
         alert("Ingrese un correo electrónico válido.");
         return false;
     }
