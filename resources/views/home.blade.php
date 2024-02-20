@@ -32,11 +32,12 @@
     
     </div>
 
-  <div id="botonesNav">
     <i class="fa-solid fa-bell" style="color: #ffffff;" id="notificacion"></i> 
+  <div id="botonesNav">
+    
     <img src="/images/user.png" class="rounded-circle" id="perfil">
-    <FONT size=0.6 id="Siupp2">REYES FUENTES MELANY JACQUELINE |  </FONT>
-    <FONT size=0.6 id="Siupp2">TUTOR: GONZALEZ PERALTA MAYRA FABIOLA</FONT> 
+    <FONT size=2 id="Siupp2">REYES FUENTES MELANY JACQUELINE |  </FONT>
+    <FONT size=2 id="Siupp3">TUTOR: GONZALEZ PERALTA MAYRA FABIOLA</FONT>
   </div>
     </nav>
 
