@@ -11,6 +11,7 @@ function validar(){
         alert("Por favor ingrese sus datos");
         return false;
     } 
+    //holis
     //validaciones de longitud (muy largo)
     if(correo.length>35){
         alert("su correo es demasiado largo, maximo 35 caracteres")
