@@ -55,7 +55,7 @@ $("#formularioEdit").submit(function valEdit() {
         return false;
     }
 
-    if (!telefono1.match(/^\d{10}$/)) {
+    if (!telefono1.lenght<10) {
         alert("El teléfono debe tener 10 dígitos numéricos.");
         return false;
     }

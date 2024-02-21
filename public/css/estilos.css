@@ -10,6 +10,7 @@
     height: 700px;
     /*border: 2px solid blue;*/
 }
+
 header{
     width: 100%;
     height: auto;
@@ -93,6 +94,7 @@ header{
     position: relative;
     top: 5px;
     margin-top: -3px;
+    right: 10px;
 }
 #nombreYtutor{    
  /*border: 2px solid blue;   */
