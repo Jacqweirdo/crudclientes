@@ -46,15 +46,98 @@
     
 
     </header>
-    <section id="aside">
-      <article id="menuAside">
+    <aside id="aside">
+      <div id="menuAside">
         <div id="menuPalabra">
         <FONT COLOR=#37646F size=2>MENÚ</FONT>
         </div>
+      </div>
       
-      </article>
-        
-    </section>
+<div class="divEnlaces">
+  <div class="iconoEnlace">
+    <i class="fa-solid fa-house-chimney fa-xs"style="color: #02a22a;" ></i>
+  </div>
+  <div class="textoEnlace">
+  <p style="font-size: 14px">Alumnos -Inicio</p>
+</div>
+</div>
+      
+<div class="divEnlaces">
+  <div class="iconoEnlace">
+    <i class="fa-solid fa-money-bill-1 fa-sm" style="color: #02a22a;"></i>
+  </div>
+  <div class="textoEnlace">
+  <p style="font-size: 14px">Pagos</p>
+</div>
+</div>
+      
+<div class="divEnlaces">
+  <div class="iconoEnlace">
+    <i class="fa-brands fa-google fa-xs" style="color: #02a22a;"></i>
+  </div>
+  <div class="textoEnlace">
+  <p style="font-size: 14px">Correo</p>
+</div>
+</div>
+      
+<div class="divEnlaces">
+  <div class="iconoEnlace">
+    <i class="fa-solid fa-box-archive fa-xs" style="color: #e01f1f;"></i>
+  </div>
+  <div class="textoEnlace">
+  <p style="font-size: 14px">Estadias</p>
+</div>
+</div>
+      
+<div class="divEnlaces">
+  <div class="iconoEnlace">
+    <i class="fa-solid fa-people-group fa-xs" style="color: #02a22a;"></i>
+  </div>
+  <div class="textoEnlace">
+  <p style="font-size: 14px">Servicio Social</p>
+</div>
+</div>
+      
+<div class="divEnlaces">
+  <div class="iconoEnlace">
+    <i class="fa-solid fa-money-bill-1 fa-sm" style="color: #02a22a;"></i>
+  </div>
+  <div class="textoEnlace">
+  <p style="font-size: 14px">Adeudos</p>
+</div>
+</div>
+      
+<div class="divEnlaces">
+  <div class="iconoEnlace">
+    <i class="fa-regular fa-clone fa-sm" style="color: #02a22a;"></i>
+  </div>
+  <div class="textoEnlace">
+  <p style="font-size: 14px">Lista Materias</p>
+</div>
+</div>
+      
+<div class="divEnlaces">
+  <div class="iconoEnlace">
+    <i class="fa-solid fa-calendar-days fa-sm" style="color: #e01f1f;"></i>
+  </div>
+  <div class="textoEnlace">
+  <p style="font-size: 14px">Agenda</p>
+</div>
+</div>
+      
+<div class="divEnlaces">
+  <div class="iconoEnlace">
+    <i class="fa-solid fa-file fa-sm" style="color: #f6a904;"></i>
+  </div>
+  <div class="textoEnlace">
+  <p style="font-size: 14px">Asesorias</p>
+</div>
+</div>
+
+
+
+
+    </aside>
     @yield('content')
         <!-- Bootstrap JavaScript Libraries -->
         <script

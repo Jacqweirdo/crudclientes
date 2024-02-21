@@ -18,9 +18,9 @@
         <div
             class="table-responsive">
             <br>
-            <table class="table" >
+            <table class="table" id="tablaclientes" >
                 <thead>
-                    <tr>
+                    <tr >
                         <th scope="col">Id</th>
                         <th scope="col">Nombre</th>
                         <th scope="col">Telefono</th>
