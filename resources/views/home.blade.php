@@ -37,8 +37,8 @@
     <i class="fa-solid fa-bell" style="color: #ffffff;" id="notificacion"></i> 
     <img src="/images/user.png" class="rounded-circle" id="perfil">
     <div id="nombreYtutor">
-    <FONT size=2 color= white id="Siupp2">REYES FUENTES MELANY JACQUELINE |</FONT>
-    <FONT size=2 color= aliceblue id="Siupp3">TUTOR: GONZALEZ PERALTA MAYRA FABIOLA</FONT>
+    <FONT size=3 color= white id="Siupp2">REYES FUENTES MELANY JACQUELINE |</FONT>
+    <FONT size=3 color= aliceblue id="Siupp3">TUTOR: GONZALEZ PERALTA MAYRA FABIOLA</FONT>
     </div>
   </div>
     </nav>

@@ -8,7 +8,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form action="{{route('home.update',$cliente->Id)}}" method="post" enctype="multipart/form-data" id="formularioEdit">
+      <form action="{{route('home.update',$cliente->Id)}}" method="post" enctype="multipart/form-data" id="formularioEdit" onsubmit="return valEdit()">
         @csrf
         @method('PUT')
       <div class="modal-body">
@@ -21,6 +21,7 @@
                 id="nombreFormEdit"
                 aria-describedby="helpId"
                 placeholder=""value="{{$cliente->Nombre}}"
+              
             />
         </div>
         <div class="mb-3">

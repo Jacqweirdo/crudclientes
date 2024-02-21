@@ -27,15 +27,23 @@ $(document).ready(function () {
 
         return true;
     });
+
+
+    // Función auxiliar para validar el correo electrónico
+    function isValidEmail(email) {
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+});
+    
+$(document).ready(function(){
 // Validación del formulario de edición
-$("#formularioEdit").submit(function () {
-    console.log("Validando el formulario de edición");
-    var nombre1 = $("#nombreFormEdit").val();
-    console.log("Nombre:", nombre1);
+$("#formularioEdit").submit(function valEdit() {
+    
+    var nombre1 = $("#nombreFormEdit").val();    
     var telefono1 = $("#telefonoFormEdit").val();
-    console.log("Telefono:", telefono1);
     var correo1 = $("#correoFormEdit").val();
-    console.log("Correo:", correo1);
+    
 
     if (nombre1 === "" || telefono1 === "" || correo1 === "") {
         alert("Por favor, complete todos los campos.");
@@ -59,11 +67,9 @@ $("#formularioEdit").submit(function () {
 
     return true;
 });
-
-    // Función auxiliar para validar el correo electrónico
-    function isValidEmail(email) {
-        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-    }
+// Función auxiliar para validar el correo electrónico
+function isValidEmail(email) {
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+}
 });
-    

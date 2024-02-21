@@ -9,6 +9,7 @@
         <div id="titulo">
         <h3>LISTA DE CLIENTES</h3>
         </div>
+        
         <br>
 <button type="button" class="btn btn-success" data-toggle="modal" data-target="#create" style="width:80px;">
 <i class="fa-solid fa-user-plus"></i>

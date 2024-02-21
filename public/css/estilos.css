@@ -51,11 +51,11 @@ header{
 }
 #logoHome{
     display: inline-block;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     height: fit-content;
     width: 300px;
     position: relative;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: -5px;
     
 }
@@ -74,29 +74,28 @@ header{
     right: 120px;
 }
 #botonesNav{
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     height: 100%;
-    width: 40%;
+    width: fit-content;
     float: right;
     margin-right: 20px;
     display: inline;
 }
 #notificacion{    
-    width: 2%;    
-    position: relative;
-    top: 8px;
-    border: 2px solid black;
+    width: 2%;    /*ancho*/
+    position: relative;  /*como lo podemos mover (fijo o libre)*/
+    top: 3px; /*para separar de arriba*/
+    /*border: 2px solid black;*/
     right: 20px;
 }
-#perfil{    
-    display: inline-block;    
+#perfil{       
     width: 28px;
     position: relative;
     top: 5px;
     margin-top: -3px;
-    
 }
 #nombreYtutor{    
- border: 2px solid blue;   
+ /*border: 2px solid blue;   */
 float: right;
+margin-top: 3px;
 }
