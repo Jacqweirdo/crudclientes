@@ -14,6 +14,10 @@ $(document).ready(function () {
             alert("El nombre debe contener solo letras.");
             return false;
         }
+        if(nombre.lenght>=20){
+            alert("El nombre es demasiado largo.");
+            return false;
+        }
 
         if (!telefono.match(/^\d{10}$/)) {
             alert("El teléfono debe tener 10 dígitos numéricos.");
