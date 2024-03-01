@@ -14,8 +14,11 @@ $(document).ready(function () {
             alert("El nombre debe contener solo letras.");
             return false;
         }
-        if(nombre.lenght>=20){
+        if(nombre.length>20){
             alert("El nombre es demasiado largo.");
+            return false;
+        }else if(nombre.length<3){
+            alert("el nombre es muy corto.");
             return false;
         }
 
@@ -26,6 +29,13 @@ $(document).ready(function () {
 
         if (!isValidEmail(correo)) {
             alert("Ingrese un correo electrónico válido.");
+            return false;
+        }
+        if(correo.length<10){
+            alert("El correo elecrónico no puede ser tan corto");
+            return false;
+        }else if(correo.length>45){
+            alert("El correo es demasiado largo")
             return false;
         }
 
@@ -39,10 +49,11 @@ $(document).ready(function () {
         return emailRegex.test(email);
     }
 });
-    
+  
+
 $(document).ready(function(){
 // Validación del formulario de edición
-$("#formularioEdit").submit(function valEdit() {
+$("#formularioEdit").submit(function () {
     
     var nombre1 = $("#nombreFormEdit").val();    
     var telefono1 = $("#telefonoFormEdit").val();
@@ -51,6 +62,13 @@ $("#formularioEdit").submit(function valEdit() {
 
     if (nombre1 === "" || telefono1 === "" || correo1 === "") {
         alert("Por favor, complete todos los campos.");
+        return false;
+    }
+    if(nombre.length>20){
+        alert("El nombre es demasiado largo.");
+        return false;
+    }else if(nombre.length<3){
+        alert("el nombre es muy corto.");
         return false;
     }
 
@@ -75,5 +93,12 @@ $("#formularioEdit").submit(function valEdit() {
 function isValidEmail(email) {
     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
+}
+if(correo1.length<10){
+    alert("El correo elecrónico no puede ser tan corto");
+    return false;
+}else if(correo1.length>45){
+    alert("El correo es demasiado largo")
+    return false;
 }
 });
