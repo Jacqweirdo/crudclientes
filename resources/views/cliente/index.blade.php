@@ -7,12 +7,12 @@
     <div class="col-md-8">
         <br><br>
         <div id="titulo">
-        <h3>LISTA DE CLIENTES</h3>
+        <h3>Contactos</h3>
         </div>
         
         <br>
-<button type="button" class="btn btn-success" data-toggle="modal" data-target="#create" style="width:80px;">
-<i class="fa-solid fa-user-plus"></i>
+<button type="button" class="btn" data-toggle="modal" data-target="#create" style="width:80px;">
+<i class="fa-solid fa-user-plus fa-xl" style="color: #000000;"></i>
 </button>
 
         <div
@@ -36,11 +36,11 @@
                         <td>{{$cliente->Telefono}}</td>
                         <td>{{$cliente->Correo}}</td>
                         <td>
-                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#edit{{$cliente->Id}}"> 
-                        <i class="fa-solid fa-user-pen"></i>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#edit{{$cliente->Id}}"> 
+                        <i class="fa-solid fa-pen-to-square fa-xl" style="color: #000000;"></i>
                         </button>
-                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete{{$cliente->Id}}">
-                        <i class="fa-solid fa-trash-can"></i>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#delete{{$cliente->Id}}">
+                        <i class="fa-solid fa-trash-can fa-xl" style="color: #000000;"></i>
                         </button>
                         </td>
                     </tr>
